@@ -31,8 +31,8 @@ export const signUpUser =
         }
       );
 
-      // if (localStorage.getItem("role") === "yp") history.push("/ypdetails");
-      // else history.push("/companydetails");
+      if (localStorage.getItem("role") === "yp") history.push("/ypdetails");
+      else history.push("/companydetails");
       dispatch({ type: "signUpUser" });
       history.push("login");
     } catch (e) {
