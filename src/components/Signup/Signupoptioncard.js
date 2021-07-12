@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Signupoptioncard = (props) => {
   const classes = useStyles();
+
   let pic;
   props.text === "yp"
     ? (pic = "./assets/yp.svg")
