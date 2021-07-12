@@ -25,8 +25,8 @@ export const signUpUser =
         },
         {
           headers: {
-            "Content-Type": "application/json",
-            "Access-Control-Allow-Origin": "*",
+            // "Content-Type": "application/json",
+            // "Access-Control-Allow-Origin": "*",
           },
         }
       );
